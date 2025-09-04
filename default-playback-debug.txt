@@ -1,0 +1,57 @@
+{
+  "device_id": "{0.0.0.00000000}.{c1f1194c-e8a3-49e9-9e35-f0948235b977}",
+  "attempts": [
+    {
+      "clsid": "{870AF99C-171D-4F9E-AF0D-E63DF40C2BC9}",
+      "iface": "IPolicyConfig",
+      "label": "PolicyConfigClient/IPolicyConfig",
+      "roles": [
+        {
+          "role": 0,
+          "error": "COMError"
+        },
+        {
+          "role": 1,
+          "error": "OSError"
+        },
+        {
+          "role": 2,
+          "error": "OSError"
+        }
+      ],
+      "ok_all": false,
+      "ok_any": false,
+      "ok_multimedia": false
+    },
+    {
+      "clsid": "{294935CE-F637-4E7C-A41B-AB255460B862}",
+      "iface": "IPolicyConfigVista",
+      "label": "CPolicyConfigVistaClient/IPolicyConfigVista",
+      "roles": [
+        {
+          "role": 0,
+          "hr": 0
+        },
+        {
+          "role": 1,
+          "hr": 0
+        },
+        {
+          "role": 2,
+          "hr": 0
+        }
+      ],
+      "ok_all": true,
+      "ok_any": true,
+      "ok_multimedia": true
+    },
+    {
+      "clsid": "{294935CE-F637-4E7C-A41B-AB255460B862}",
+      "iface": "IPolicyConfig",
+      "label": "CPolicyConfigVistaClient/IPolicyConfig (fallback)",
+      "roles": [],
+      "error": "create_failed: OSError"
+    }
+  ],
+  "success": true
+}

@@ -1,0 +1,9 @@
+# Core (Stufe 1) – pinned to tested versions
+pycaw==20240210
+comtypes==1.4.12
+
+# Optional (Stufe 2)
+# pyVoicemeeter>=1.4.3
+
+# Optional (Stufe 3)
+# pydantic>=2.0
