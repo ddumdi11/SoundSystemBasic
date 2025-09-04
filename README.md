@@ -51,6 +51,8 @@ Hinweis: Die UI aktualisiert nach dem Setzen des Standardgeräts automatisch (le
 - Stufe 2 (geplant): VoiceMeeter Banana (pyVoicemeeter), Presets, Status
 - Stufe 3 (geplant): Profile, Hotkeys, Validierung, Packaging (PyInstaller)
 
+Siehe auch: `docs/issues/README.md` für vorbereitete Issue-Entwürfe.
+
 ## Entwicklung
 - Python 3.11 empfohlen
 - Abhängigkeiten in `.venv` (nicht global)

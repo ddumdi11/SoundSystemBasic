@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Issue Drafts (Roadmap)
+    url: https://github.com/ddumdi11/SoundSystemBasic/blob/main/docs/issues/README.md
+    about: Liste vorbereiteter Themen/Tasks, die du als Issues anlegen kannst
+  - name: Entwickler-Dokumentation (README_DEV)
+    url: https://github.com/ddumdi11/SoundSystemBasic/blob/main/README_DEV.md
+    about: Technische Details, Stufenplan, Troubleshooting
