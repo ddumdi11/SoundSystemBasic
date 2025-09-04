@@ -59,3 +59,11 @@ Hinweis: Die UI aktualisiert nach dem Setzen des Standardgeräts automatisch (le
 
 ## Status
 Work in progress (WIP). Stufe 1 ist funktional stabil; Stufe 2/3 folgen.
+
+## Contributing
+- Branches: arbeite auf `dev` oder Feature-Branches (`feat/<kurz>`, `fix/<kurz>`), nicht direkt auf `main`.
+- Commits: nutze kurze, präzise Messages; gern im Stil von Conventional Commits (`feat: …`, `fix: …`).
+- Umgebung: immer `.venv` verwenden; installiere Abhängigkeiten mit `pip install -r requirements.txt`.
+- Checks: `python -m app.cli /doctor` vor PRs, UI-Test mit `python -m app.ui_tk`.
+- Scope: fokussiere Änderungen (kleine PRs sind leichter zu reviewen). 
+- Issues/PRs: beschreibe das Ziel, die Schritte zur Reproduktion (falls Bug) und Screenshots, wenn UI betroffen.
